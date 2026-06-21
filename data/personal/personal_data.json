@@ -1,0 +1,187 @@
+{
+  "profile": {
+    "name": "Maryam Amjad",
+    "age": 22,
+    "email": "maryam.amjad@example.com",
+    "phone": "+92-300-1234567",
+    "address": "House 45, Street 7, F-10/3, Islamabad, Pakistan",
+    "occupation": "Computer Science Student",
+    "university": "FAST-NUCES, Islamabad",
+    "degree": "Bachelor of Science in Computer Science",
+    "grad_year": 2026,
+    "gpa": 3.7
+  },
+  "contacts": [
+    {
+      "name": "Dr. Qaiser Shafi",
+      "relation": "Supervisor",
+      "email": "qaiser@nu.edu.pk"
+    },
+    {
+      "name": "Amna Nadeem",
+      "relation": "Teammate",
+      "email": "amna@example.com"
+    },
+    {
+      "name": "Dur-e-Shahwar",
+      "relation": "Teammate",
+      "email": "dur@example.com"
+    },
+    {
+      "name": "Ahmed Raza",
+      "relation": "Friend",
+      "email": "ahmed@example.com"
+    },
+    {
+      "name": "Sara Khan",
+      "relation": "Classmate",
+      "email": "sara@example.com"
+    }
+  ],
+  "schedule": [
+    {
+      "day": "Monday",
+      "time": "09:00",
+      "event": "Machine Learning Lab",
+      "location": "CS Lab 3"
+    },
+    {
+      "day": "Monday",
+      "time": "14:00",
+      "event": "FYP Meeting with supervisor",
+      "location": "Faculty Room"
+    },
+    {
+      "day": "Tuesday",
+      "time": "10:00",
+      "event": "Data Structures Lecture",
+      "location": "LT-2"
+    },
+    {
+      "day": "Wednesday",
+      "time": "09:00",
+      "event": "NLP Assignment submission",
+      "location": "Online"
+    },
+    {
+      "day": "Thursday",
+      "time": "15:00",
+      "event": "Study group session",
+      "location": "Library"
+    },
+    {
+      "day": "Friday",
+      "time": "11:00",
+      "event": "Research paper reading",
+      "location": "Home"
+    }
+  ],
+  "preferences": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "interests": [
+      "Machine Learning",
+      "RAG systems",
+      "Computer Vision"
+    ],
+    "favorite_food": "Biryani",
+    "hobbies": [
+      "Reading",
+      "Coding",
+      "Table tennis"
+    ],
+    "wake_up_time": "07:00",
+    "sleep_time": "00:00"
+  },
+  "academic_history": [
+    {
+      "year": 2022,
+      "semester": "Fall",
+      "gpa": 3.5,
+      "courses": [
+        "Programming Fundamentals",
+        "Calculus",
+        "Physics"
+      ]
+    },
+    {
+      "year": 2023,
+      "semester": "Spring",
+      "gpa": 3.6,
+      "courses": [
+        "OOP",
+        "Linear Algebra",
+        "Digital Logic"
+      ]
+    },
+    {
+      "year": 2023,
+      "semester": "Fall",
+      "gpa": 3.7,
+      "courses": [
+        "Data Structures",
+        "Database Systems",
+        "OS"
+      ]
+    },
+    {
+      "year": 2024,
+      "semester": "Spring",
+      "gpa": 3.8,
+      "courses": [
+        "Machine Learning",
+        "Computer Networks",
+        "AI"
+      ]
+    },
+    {
+      "year": 2024,
+      "semester": "Fall",
+      "gpa": 3.7,
+      "courses": [
+        "Deep Learning",
+        "NLP",
+        "Computer Vision"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nexa Aegis",
+      "description": "CSAM detection pipeline for Android forensics using YOLOv11 and Swin Transformer",
+      "status": "Completed",
+      "year": 2025
+    },
+    {
+      "name": "WHO Drug Alert RAG System",
+      "description": "Multilingual RAG system over WHO counterfeit drug alerts using T-GRAG, Hyper-RAG, DELTA",
+      "status": "Completed",
+      "year": 2025
+    }
+  ],
+  "conversation_history": [
+    {
+      "role": "user",
+      "message": "What is my GPA?",
+      "timestamp": "2025-01-10"
+    },
+    {
+      "role": "assistant",
+      "message": "Your current GPA is 3.7",
+      "timestamp": "2025-01-10"
+    },
+    {
+      "role": "user",
+      "message": "When is my next FYP meeting?",
+      "timestamp": "2025-01-11"
+    },
+    {
+      "role": "assistant",
+      "message": "Your FYP meeting is on Monday at 14:00 in the Faculty Room",
+      "timestamp": "2025-01-11"
+    }
+  ]
+}

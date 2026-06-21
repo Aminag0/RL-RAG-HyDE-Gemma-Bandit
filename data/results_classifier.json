@@ -1,0 +1,160 @@
+{
+  "classifier_comparison": [
+    {
+      "query": "What is quantum entanglement?",
+      "expected": "physics",
+      "regex": "general",
+      "llm": "physics",
+      "regex_ok": false,
+      "llm_ok": true
+    },
+    {
+      "query": "How does nuclear fusion work in stars?",
+      "expected": "physics",
+      "regex": "general",
+      "llm": "physics",
+      "regex_ok": false,
+      "llm_ok": true
+    },
+    {
+      "query": "What is the Higgs boson?",
+      "expected": "physics",
+      "regex": "general",
+      "llm": "physics",
+      "regex_ok": false,
+      "llm_ok": true
+    },
+    {
+      "query": "What is my GPA?",
+      "expected": "personal",
+      "regex": "personal",
+      "llm": "general",
+      "regex_ok": true,
+      "llm_ok": false
+    },
+    {
+      "query": "Who is my FYP supervisor?",
+      "expected": "personal",
+      "regex": "personal",
+      "llm": "general",
+      "regex_ok": true,
+      "llm_ok": false
+    },
+    {
+      "query": "What are my hobbies?",
+      "expected": "personal",
+      "regex": "personal",
+      "llm": "general",
+      "regex_ok": true,
+      "llm_ok": false
+    },
+    {
+      "query": "What physics topics am I studying this semester?",
+      "expected": "both",
+      "regex": "personal",
+      "llm": "both",
+      "regex_ok": true,
+      "llm_ok": true
+    },
+    {
+      "query": "How does quantum computing relate to my CS degree?",
+      "expected": "both",
+      "regex": "personal",
+      "llm": "both",
+      "regex_ok": true,
+      "llm_ok": true
+    },
+    {
+      "query": "Tell me about dark matter",
+      "expected": "physics",
+      "regex": "personal",
+      "llm": "both",
+      "regex_ok": false,
+      "llm_ok": false
+    },
+    {
+      "query": "What projects have I worked on in machine learning?",
+      "expected": "both",
+      "regex": "personal",
+      "llm": "both",
+      "regex_ok": true,
+      "llm_ok": true
+    },
+    {
+      "query": "How does my academic background relate to AI?",
+      "expected": "both",
+      "regex": "personal",
+      "llm": "both",
+      "regex_ok": true,
+      "llm_ok": true
+    },
+    {
+      "query": "What is the weather like today?",
+      "expected": "general",
+      "regex": "general",
+      "llm": "general",
+      "regex_ok": true,
+      "llm_ok": true
+    }
+  ],
+  "regex_accuracy": "67%",
+  "llm_accuracy": "67%",
+  "pipeline_results": [
+    {
+      "query": "What physics topics am I studying this semester?",
+      "model": "gemma3:1b",
+      "category": "both",
+      "response": "This text doesn’t explicitly state *which* physics topics you are studying this semester. It focuses on the broader context of interdisciplinary science and the development of biophysics curriculum. However, it does mention several key areas:\n\n*   **Thermodynamics:** (e.g., \"thermodynamics\")\n*   **Fluid Dynamics:** (e.g., \"fluid dynamics\")\n*   **Mechanics and Condensed Matter:** (e.g., \"mechanics and condensed matter\")\n*   **Computer Networks:** (e.g., \"computer networks\")\n*   **Deep Learning:** (e.g., \"deep learning\")\n\nEssentially, the text highlights the *types* of physics concepts you’ll be exploring.",
+      "time": 44.78400802612305
+    },
+    {
+      "query": "What physics topics am I studying this semester?",
+      "model": "gemma3:4b",
+      "category": "physics",
+      "response": "Based on the provided passages, you are studying the following physics topics within the context of biophysics:\n\n*   **Thermodynamics:** Specifically, the concept of negative water potential (Ψwv) and its role in water movement in trees.\n*   **Fluid Dynamics:** Examining the flow of water through xylem vessels, considering factors like pressure gradient, viscosity, and xylem radius.\n*   **Mechanics:** Analyzing structural support in trees, including the critical force at which a column fails, relating to wood strength (E), tree diameter (I), and effective length (Leff).\n\nAdditionally, the material suggests an introduction to **condensed matter physics** through the study of the physical aspects of tree structure.\n\nThe software and associated projects also incorporate elements of **mathematical analysis** and **software development** as tools for understanding and simulating biophysical processes.",
+      "time": 119.23481798171997
+    },
+    {
+      "query": "How does quantum computing relate to my CS degree?",
+      "model": "gemma3:1b",
+      "category": "both",
+      "response": "Okay, let's break down how quantum computing relates to your Bachelor of Science in Computer Science degree, drawing on the information provided in the text. Here’s a breakdown of the key connections:\n\n**1. Core Focus of Tianyan Quantum Cloud Platform:**\n\n*   **Hybrid Quantum-Classical Computing:** Your degree directly relates to this. Tianyan’s platform is built on integrating quantum hardware with classical computing. This is a fundamental shift in how quantum computers are designed and used.\n*   **Quantum Computational Advantage:** You’re working with a technology that’s designed to *achieve* quantum advantage – a significant computational leap over classical computers for specific tasks. This is a central goal of your field.\n*   **Quantum Simulation, Optimization, and Machine Learning:** These are all areas where quantum computing has the potential to dramatically improve existing algorithms and create new ones. Your degree provides the foundational knowledge to understand and potentially develop these applications.\n\n**2. Technological Advancements & Your Role:**\n\n*   **Quantum Hard-ware & Software Development:** Your degree provides the technical skills to design, implement, and test these quantum systems.\n*   **Cqlib & Open-Source Framework:** You're involved in the software development side of the platform, contributing to the ecosystem of quantum computing tools.\n*   **Tianyan-176 & Tianyan-176 II:** These are specific quantum systems you've worked with, demonstrating your",
+      "time": 41.54153347015381
+    },
+    {
+      "query": "How does quantum computing relate to my CS degree?",
+      "model": "gemma3:4b",
+      "category": "both",
+      "response": "ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)",
+      "time": 122.14813327789307
+    },
+    {
+      "query": "What is the Higgs boson?",
+      "model": "gemma3:1b",
+      "category": "physics",
+      "response": "The text doesn’t explicitly define the Higgs boson. However, it states that the HL-LHC upgrade of the machine and detectors was approved in June 2016, and that it collected ten times more data than in the initial design. It also mentions that the Higgs boson has triggered the need to start a new physics programme of precise determinations of the Higgs properties and, correspondingly, of electroweak measurements with improved precision.\n\nTherefore, the best answer is: **The Higgs boson is a fundamental particle that has recently been discovered and is a key focus of research in particle physics.**\n\n**Disclaimer:** I’ve focused on extracting the most relevant information from the provided text.",
+      "time": 29.21101975440979
+    },
+    {
+      "query": "What is the Higgs boson?",
+      "model": "gemma3:4b",
+      "category": "physics",
+      "response": "According to the provided passages, the Higgs boson is central to a new physics program following the discovery of the Higgs boson itself. Specifically, it’s being studied for:\n\n*   **Precise determinations of the Higgs properties:** Scientists are aiming to measure the Higgs boson’s properties with increased accuracy.\n*   **Electroweak measurements with improved precision:** These tests probe any new physics that affects the electroweak symmetry breaking sector.\n*   **Exploring “naturalness” in models like the Composite Higgs:** Future colliders could potentially measure the degree of “fine-tuning” in models like the Composite Higgs down to the percent level.\n\nEssentially, the Higgs boson is a key target for investigating physics beyond the Standard Model.",
+      "time": 103.64942717552185
+    },
+    {
+      "query": "What are my hobbies?",
+      "model": "gemma3:1b",
+      "category": "general",
+      "response": "I understand you're asking me to tell you what your hobbies are. However, I have no way of knowing what your hobbies are. I am an AI and do not have access to your personal information. \n\n**To help me answer your question, you need to tell me!**  \n\nPlease tell me:\n\n* **What do you want to tell me about your hobbies?**  Do you want me to suggest some ideas, or are you just looking for a general list? \n\nOnce you tell me, I can give you a helpful and accurate response. 😊",
+      "time": 9.230513334274292
+    },
+    {
+      "query": "What are my hobbies?",
+      "model": "gemma3:4b",
+      "category": "personal",
+      "response": "Reading, Coding, Table tennis",
+      "time": 24.525147438049316
+    }
+  ]
+}

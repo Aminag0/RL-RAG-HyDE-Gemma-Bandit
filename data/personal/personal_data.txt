@@ -1,0 +1,39 @@
+NAME: Maryam Amjad
+AGE: 22
+EMAIL: maryam.amjad@example.com
+ADDRESS: House 45, Street 7, F-10/3, Islamabad, Pakistan
+UNIVERSITY: FAST-NUCES, Islamabad
+DEGREE: Bachelor of Science in Computer Science
+GRADUATION YEAR: 2026
+GPA: 3.7
+
+CONTACTS:
+  - Dr. Qaiser Shafi (Supervisor): qaiser@nu.edu.pk
+  - Amna Nadeem (Teammate): amna@example.com
+  - Dur-e-Shahwar (Teammate): dur@example.com
+  - Ahmed Raza (Friend): ahmed@example.com
+  - Sara Khan (Classmate): sara@example.com
+
+SCHEDULE:
+  - Monday 09:00: Machine Learning Lab at CS Lab 3
+  - Monday 14:00: FYP Meeting with supervisor at Faculty Room
+  - Tuesday 10:00: Data Structures Lecture at LT-2
+  - Wednesday 09:00: NLP Assignment submission at Online
+  - Thursday 15:00: Study group session at Library
+  - Friday 11:00: Research paper reading at Home
+
+PREFERENCES:
+  Programming languages: Python, Java, C++
+  Interests: Machine Learning, RAG systems, Computer Vision
+  Hobbies: Reading, Coding, Table tennis
+
+ACADEMIC HISTORY:
+  - 2022 Fall: GPA 3.5, Courses: Programming Fundamentals, Calculus, Physics
+  - 2023 Spring: GPA 3.6, Courses: OOP, Linear Algebra, Digital Logic
+  - 2023 Fall: GPA 3.7, Courses: Data Structures, Database Systems, OS
+  - 2024 Spring: GPA 3.8, Courses: Machine Learning, Computer Networks, AI
+  - 2024 Fall: GPA 3.7, Courses: Deep Learning, NLP, Computer Vision
+
+PROJECTS:
+  - Nexa Aegis (2025): CSAM detection pipeline for Android forensics using YOLOv11 and Swin Transformer [Completed]
+  - WHO Drug Alert RAG System (2025): Multilingual RAG system over WHO counterfeit drug alerts using T-GRAG, Hyper-RAG, DELTA [Completed]

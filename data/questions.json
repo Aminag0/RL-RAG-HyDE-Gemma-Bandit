@@ -1,0 +1,28 @@
+{
+  "personal_questions": [
+    "What is my name and where do I study?",
+    "What is my current GPA?",
+    "Who is my FYP supervisor?",
+    "What programming languages do I know?",
+    "What are my hobbies and interests?",
+    "What is my home address?",
+    "When did I start my degree and when will I graduate?",
+    "Who are my teammates on the project?",
+    "What projects have I worked on?",
+    "What is my Monday schedule?"
+  ],
+  "physics_questions": [
+    "What is the standard model of particle physics?",
+    "Explain quantum entanglement and its implications.",
+    "What is the Higgs boson and why is it important?",
+    "How does general relativity describe gravity?",
+    "What is dark matter and what evidence supports its existence?",
+    "Explain the concept of quantum superposition.",
+    "What is the Big Bang theory and what evidence supports it?",
+    "How does nuclear fusion work in stars?",
+    "What is the uncertainty principle in quantum mechanics?",
+    "Explain the photoelectric effect and its significance.",
+    "What is a black hole and how does it form?",
+    "How does electromagnetic induction work?"
+  ]
+}
