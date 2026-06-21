@@ -1,14 +1,14 @@
-\# RAG vs HyDE on Compact Gemma LLMs with RL Bandit Extension
+# RAG vs HyDE on Compact Gemma LLMs with RL Bandit Extension
 
 
 
-\## Project Overview
+## Project Overview
 
 This project implements and extends a RAG vs HyDE evaluation on compact Gemma LLMs using local inference with Ollama, Qdrant vector search, and MongoDB.
 
 
 
-\## Reinforcement Learning Component
+## Reinforcement Learning Component
 
 
 
@@ -16,29 +16,28 @@ A real RL component has been added in:
 
 
 
-`step3f\_bandit\_rl.py`
+step3f\_bandit\_rl.py`
 
 
 
-\## RL Algorithm
+## RL Algorithm
 
 Epsilon-Greedy Multi-Armed Bandit
 
 
-
-\## Where RL is Applied
+## Where RL is Applied
 
 The RL agent is applied at the retrieval policy selection stage.
 
 
 
-\## State
+## State
 
 Current user query / physics question.
 
 
 
-\## Actions / Arms
+## Actions / Arms
 
 \- RAG\_k1
 
@@ -58,19 +57,19 @@ Current user query / physics question.
 
 
 
-\## Reward
+## Reward
 
 Retrieval Quality Metric (RQM), calculated as the mean cosine similarity between the original query and retrieved chunks.
 
 
 
-\## Update Rule
+## Update Rule
 
 Q(a) = Q(a) + (reward - Q(a)) / N(a)
 
 
 
-\## RL Outputs
+## RL Outputs
 
 \- `data/results\_bandit\_rl.json`
 
@@ -80,7 +79,7 @@ Q(a) = Q(a) + (reward - Q(a)) / N(a)
 
 
 
-\## Main Files
+## Main Files
 
 \- `step1b\_full\_pipeline.py` — data ingestion and Qdrant setup
 
